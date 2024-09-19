@@ -6,7 +6,7 @@ import { Input } from "@/components/ui/input"
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
 
 export default function ReferralLink() {
-  const [referralLink, setReferralLink] = useState('https://nextgen20.com/ref/user123')
+  const [referralLink] = useState('https://nextgen20.com/ref/user123')
   const [copyMessage, setCopyMessage] = useState('')
 
   const copyToClipboard = () => {

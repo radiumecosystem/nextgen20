@@ -3,7 +3,7 @@
 import React, { useState } from 'react'
 import Link from 'next/link'
 import { usePathname } from 'next/navigation'
-import { ChevronLeft, MoreHorizontal, DollarSign, Users, PieChart, BarChart2, Calendar, CheckSquare, ArrowUpRight, Search, Award, Bell, User, Menu } from 'lucide-react'
+import { DollarSign, Users, PieChart, CheckSquare, ArrowUpRight, Search, Award, Bell, User, Menu } from 'lucide-react'
 
 const tabs = [
   { name: 'Overview', icon: PieChart, href: '/' },
