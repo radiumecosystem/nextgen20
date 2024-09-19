@@ -42,7 +42,7 @@ export default function DashboardPage() {
   }
 
   return (
-    <div className="container mx-auto">
+    <div className="container mx-auto  space-y-8">
      
       
       <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
